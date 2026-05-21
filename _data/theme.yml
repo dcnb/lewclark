@@ -34,7 +34,7 @@ show-contents-nav: true
 # true == navbar shows a "Contents" button that opens the essay chapter list
 show-homepage-toc: true
 # true == homepage displays a table of contents listing all essays
-show-section-nav: true
+show-section-nav: false
 # true ==  essay pages show a fixed floating sidebar (on wide screens)
 
 
@@ -49,7 +49,7 @@ show-section-nav: true
 #          gregynog, ashendene, custom
 # ────────────────────────────────────────────────────────────────────────
 
-color-theme: default
+color-theme: idaho
 
 #### BUILT-IN THEMES (printing-history references)
 # idaho     — USDA, 1958 Douglas-fir cloth, gold stamp · dark green navbar · Spectral
