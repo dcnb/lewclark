@@ -1,5 +1,4 @@
 
-
 ##########
 ## CB-ESSAY THEME OPTIONS
 ##########
@@ -19,20 +18,23 @@
 # - Collection objectid: demo_001
 #
 image-style: half-image                # full-image, half-image, or no-image
-featured-image: /assets/img/writing-instruments.jpg
-featured-image-credit: "General Research Division, The New York Public Library. 'An illustration of writing brushes' The New York Public Library Digital Collections. 1908. [https://digitalcollections.nypl.org/items/07caacb0-c6cc-012f-af8d-58d385a7bc34](https://digitalcollections.nypl.org/items/07caacb0-c6cc-012f-af8d-58d385a7bc34)"
-featured-image-alt-text: "An illustration of writing brushes with Japanese labels" # Add alt text for accessibility
+featured-image: 
+  https://www.gutenberg.org/cache/epub/8419/pg8419.cover.medium.jpg
+featured-image-credit: "This is a cover of the The Journals of Lewis and Clark, 1804-1806
+  by Lewis, Meriwether, 1774-1809 as extracted from Project Gutenberg; it can be found
+  here: https://www.gutenberg.org/ebooks/8419"
+featured-image-alt-text: "Cover image of The Journals of Lewis and Clark, 1804-1806" # Add alt text for accessibility
 
 
 # NAVIGATION FEATURES
 
 # true/false options to turn on navigation features on navbar and homepage
 
-show-contents-nav: true 
+show-contents-nav: true
 # true == navbar shows a "Contents" button that opens the essay chapter list
-show-homepage-toc: true 
+show-homepage-toc: true
 # true == homepage displays a table of contents listing all essays
-show-section-nav: true 
+show-section-nav: true
 # true ==  essay pages show a fixed floating sidebar (on wide screens)
 
 
@@ -217,14 +219,14 @@ search-child-objects: true # true / false - if true, child objects will appear o
 # the template uses Bootstrap Icons, https://icons.getbootstrap.com/
 # find the names on the BI icons page, e.g. file-image
 #
-icons: 
+icons:
   icon-image: image
   icon-audio: soundwave
   icon-video: film
   icon-pdf: file-richtext
   icon-record: file-text
   icon-panorama: image-alt
-  icon-compound-object: collection 
+  icon-compound-object: collection
   icon-multiple: postcard
   icon-default: file-earmark # fall back icon
   icon-back-to-top: arrow-up-square
