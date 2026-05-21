@@ -1,0 +1,16 @@
+<script>
+(function () {
+  var prevLink = document.querySelector('#prev-section-button a');
+  var nextLink = document.querySelector('#next-section-button a');
+  document.addEventListener('keydown', function (e) {
+    // Ignore when focus is inside a text input, textarea, or contenteditable
+    var tag = document.activeElement && document.activeElement.tagName;
+    if (tag === 'INPUT' || tag === 'TEXTAREA' || document.activeElement.isContentEditable) return;
+    if (e.key === 'ArrowLeft' && prevLink) {
+      prevLink.click();
+    } else if (e.key === 'ArrowRight' && nextLink) {
+      nextLink.click();
+    }
+  });
+})();
+</script>

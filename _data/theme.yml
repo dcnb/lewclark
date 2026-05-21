@@ -36,6 +36,8 @@ show-homepage-toc: true
 # true == homepage displays a table of contents listing all essays
 show-section-nav: false
 # true ==  essay pages show a fixed floating sidebar (on wide screens)
+keyboard-nav: true
+# true == left/right arrow keys navigate to the previous/next essay page
 
 
 

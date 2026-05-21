@@ -50,3 +50,7 @@ custom-foot: essay/js/spotlight-media-handler.html
 {% endif %}
 
 {% include essay/js/aside-flags.html %}
+
+{% if site.data.theme.keyboard-nav != false %}
+{% include essay/js/keyboard-nav.html %}
+{% endif %}
